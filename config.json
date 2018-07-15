@@ -1,0 +1,19 @@
+{
+	"AND" : {
+				"contains" : [], 
+				"notcontains" : [ ["subject","confidential"]] ,
+				"older" : [],
+				"notolder" : []
+			},
+	
+	"OR" : {
+			"contains" : [],
+			"notcontains" : [] ,
+			"older" : [],
+			"notolder" : [ ["date" , 4] ]
+		  },
+	"DO" : {
+		"add" : [],
+		"remove" : [""]
+	}
+}	
