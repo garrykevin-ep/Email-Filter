@@ -10,10 +10,10 @@ class Store(object):
  	def __init__(self,user_id='me'):
  		self.user_id = user_id
  		self.service = build_service()
- 		print ("Retriving Messages from gmail")
+ 		print ("Retriving Messages from gmail...")
  		self.list_messages()
  		print ("Messages Retrived")
- 		print ("Storing Messages")
+ 		print ("Storing Messages....")
  		self.store_email()
  		self.store_labels()
  		print ("Stored Messages")
